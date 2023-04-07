@@ -1,4 +1,4 @@
-FROM python:3.8-slim-buster
+FROM python
 RUN pip install poetry
 
 WORKDIR /app
